@@ -25,9 +25,9 @@ export function TopBar() {
             <p>649</p>
           </div>
         </div>
-        <p style={{ display: "flex", fontSize: "1rem", fontWeight: "100", color: "white" }}>
+        {/* <p style={{ display: "flex", fontSize: "1rem", fontWeight: "100", color: "white" }}>
           A-&gt;Z
-        </p>
+        </p> */}
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ export function BottomBar() {
         <p className="bg-circle-white">X</p>
         <p>Habitat</p>
       </div>
-      <div className="bottom-btn">
+      {/* <div className="bottom-btn">
         <p className="bg-circle-white">Y</p>
         <p>Sort</p>
       </div>
@@ -22,7 +22,7 @@ export function BottomBar() {
       <div className="bottom-btn">
         <p className="bg-circle-white">B</p>
         <p>Back</p>
-      </div>
+      </div> */}
     </div>
   );
 }
