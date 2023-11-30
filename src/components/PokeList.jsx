@@ -32,6 +32,19 @@ export function PokeList() {
             <PokemonCard
               key={pokemonStats.id}
               id={pokemonStats.id.toString().padStart(3, "0")}
+              name={pokemonStats.name}
+              image={
+                pokemonStats.sprites.other["official-artwork"].front_default
+              }
+              type={pokemonStats.types[0].type.name}
+              weight={pokemonStats.weight}
+              height={pokemonStats.height}
+              stats={pokemonStats.stats
+                .map((stat) => stat.base_stat)
+                .slice(0, 3)}
+              statsName={pokemonStats.stats
+                .map((stat) => stat.stat.name)
+                .slice(0, 3)}
             />
           ))}
         </div>
