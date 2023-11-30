@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import { PokemonCard } from "./PokemonCard";
+import "./Pokelist.css"
 
 export function PokeList() {
   const [allPokemons, setAllPokemons] = useState([]);
   const getAllPokemons = async () => {
     const respuesta = await fetch(
-      "https://pokeapi.co/api/v2/pokemon?limit=649&offset=0"
+      "https://pokeapi.co/api/v2/pokemon?limit=10&offset=0"
     ); //la api que se va a consumir
     const data = await respuesta.json(); //recepciona toda la data de respuesta en JSON
     function createPokemonObject(resuls) {
