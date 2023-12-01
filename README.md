@@ -7,7 +7,7 @@ My first steps in React some API consumption 😊
 **NAPOLEON ANAYA ROMERO**
 -	[https://www.linkedin.com/in/napoleon-anaya/](https://www.linkedin.com/in/napoleon-anaya/)
 
-## Preview  [https://pokedex2023-react.netlify.app/](https://pokedex2023-react.netlify.app/)
+## Preview desktop version  -  [https://pokedex2023-react.netlify.app/](https://pokedex2023-react.netlify.app/)
 ![..](https://github.com/alucart2005/littleR_pokedex/blob/main/src/img/preview.jpg?raw=true)
 
 ## Hiring 
